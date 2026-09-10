@@ -1,0 +1,44 @@
+[
+  {
+    "doc_id": "procurement_policy",
+    "file_name": "procurement_policy.md",
+    "chunk_index": 0,
+    "content": "# Enterprise Procurement & Expenditure Policy 2026\n\n## 1. Delegated Financial Authority Thresholds\n- **Procurement Agent (Level 1)**: Authorized for individual purchase orders up to **$5,000.00 USD**.\n- **Procurement Manager (Level 2)**: Authorized for purchase orders up to **$50,000.00 USD**.\n- **Executive / Admin (Level 3)**: Authorized for unlimited expenditure subject to board oversight.\n\n## 2. Spend Restriction & Human Escalation Rules\n- Any purchase request exceeding **$5,000.00 USD** subm"
+  },
+  {
+    "doc_id": "procurement_policy",
+    "file_name": "procurement_policy.md",
+    "chunk_index": 1,
+    "content": "purchase request exceeding **$5,000.00 USD** submitted by a Level 1 Procurement Agent MUST be flagged and escalated to a Procurement Manager for manual sign-off.\n- Orders attempting to bypass authorization will be blocked by system guardrails.\n- Purchases of restricted categories (e.g., Hazardous Materials, Unapproved Software Licenses) require mandatory compliance audit prior to PO creation.\n\n## 3. Supplier Selection & Preferred Vendors\n- All purchase orders must prioritize Preferred Vendors ("
+  },
+  {
+    "doc_id": "procurement_policy",
+    "file_name": "procurement_policy.md",
+    "chunk_index": 2,
+    "content": "urchase orders must prioritize Preferred Vendors (Status = 'PREFERRED').\n- Purchases from non-preferred vendors exceeding $1,000.00 USD require justification in the order notes.\n- Orders placed with Restricted or Suspended vendors will be automatically rejected.\n\n## 4. Reorder & Inventory Management Guidelines\n- Stock items falling below their specified `reorder_threshold` should trigger an automated reorder recommendation.\n- Standard reorder quantity must not exceed 2x the current shortage amou"
+  },
+  {
+    "doc_id": "procurement_policy",
+    "file_name": "procurement_policy.md",
+    "chunk_index": 3,
+    "content": "ntity must not exceed 2x the current shortage amount unless authorized by a Manager."
+  },
+  {
+    "doc_id": "vendor_sla_terms",
+    "file_name": "vendor_sla_terms.md",
+    "chunk_index": 0,
+    "content": "# Vendor Service Level Agreements & Policy Terms\n\n## Preferred Suppliers Overview\n1. **Zenith Electronics (SUP-101)**\n   - Category: IT Hardware & Laptops\n   - Preferred Status: PREFERRED\n   - Standard Delivery SLA: 3 Business Days\n   - Return Window: 30 Days full refund, zero restocking fee.\n   - Defect Rate Threshold: < 0.5%\n\n2. **Apex Office Logistics (SUP-102)**\n   - Category: Office Supplies & Furniture\n   - Preferred Status: PREFERRED\n   - Standard Delivery SLA: 2 Business Days\n   - Return"
+  },
+  {
+    "doc_id": "vendor_sla_terms",
+    "file_name": "vendor_sla_terms.md",
+    "chunk_index": 1,
+    "content": "Standard Delivery SLA: 2 Business Days\n   - Return Window: 14 Days full refund, 10% restocking fee on assembled furniture.\n\n3. **Global Network Tech (SUP-103)**\n   - Category: Networking & Server Equipment\n   - Preferred Status: PREFERRED\n   - Standard Delivery SLA: 5 Business Days\n   - Return Window: 30 Days full refund for unopened items.\n\n4. **Vanguard Industrial Supplies (SUP-104)**\n   - Category: Safety Gear & Facilities\n   - Preferred Status: APPROVED (Non-Preferred)\n   - Standard Delivery"
+  },
+  {
+    "doc_id": "vendor_sla_terms",
+    "file_name": "vendor_sla_terms.md",
+    "chunk_index": 2,
+    "content": "s: APPROVED (Non-Preferred)\n   - Standard Delivery SLA: 7 Business Days\n   - Return Window: 30 Days return policy.\n\n5. **Aegis Cyber Solutions (SUP-105)**\n   - Category: Software & Security Software\n   - Preferred Status: RESTRICTED\n   - Notes: Mandatory IT Security Review required before any PO submission."
+  }
+]

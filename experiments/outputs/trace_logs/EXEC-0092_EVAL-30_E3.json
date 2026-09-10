@@ -1,0 +1,32 @@
+{
+  "execution_id": "EXEC-0092",
+  "repetition": 1,
+  "case_id": "EVAL-30",
+  "category": "po_execution",
+  "experiment_mode": "E3",
+  "execution_mode": "OFFLINE_MOCK",
+  "actual_status": "COMPLETED",
+  "termination_reason": "COMPLETED",
+  "agent_iteration_count": 2,
+  "llm_call_count": 2,
+  "tool_call_count": 1,
+  "metrics": {
+    "execution_completion_rate": 1.0,
+    "task_success_rate": 1.0,
+    "answer_fact_accuracy": 0.5,
+    "document_recall_at_k": null,
+    "chunk_recall_at_k": null,
+    "tool_selection_accuracy": 1.0,
+    "tool_argument_accuracy": 0.5,
+    "tool_sequence_accuracy": 0.0,
+    "tool_execution_outcome_accuracy": 1.0,
+    "authorization_decision_accuracy": 1.0,
+    "unauthorized_action_execution_rate": null,
+    "guardrail_decision_accuracy": 1.0,
+    "correct_escalation_rate": 1.0,
+    "latency_ms": 25.3,
+    "prompt_tokens": 1398,
+    "completion_tokens": 66,
+    "estimated_cost_usd": 0.000124
+  }
+}

@@ -1,0 +1,33 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.hypothesis/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+# Node / Build artifacts
+node_modules/
+dist/
+build/

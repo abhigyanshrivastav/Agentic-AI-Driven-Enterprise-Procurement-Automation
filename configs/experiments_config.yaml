@@ -1,0 +1,29 @@
+experiments:
+  E0:
+    name: "Direct LLM Baseline"
+    description: "Direct zero-shot query to LLM without external context or tools"
+    use_rag: false
+    use_tools: false
+    use_guardrails: false
+    prompt_file: "configs/prompts/e0_direct.yaml"
+  E1:
+    name: "LLM + RAG"
+    description: "LLM augmented with FAISS vector similarity search over policy documents"
+    use_rag: true
+    use_tools: false
+    use_guardrails: false
+    prompt_file: "configs/prompts/e1_rag.yaml"
+  E2:
+    name: "LLM + RAG + Agent + Tools"
+    description: "LangGraph agent state machine with tool usage and RAG context"
+    use_rag: true
+    use_tools: true
+    use_guardrails: false
+    prompt_file: "configs/prompts/e2_agent.yaml"
+  E3:
+    name: "LLM + RAG + Agent + Guardrails + Escalation"
+    description: "Full reference architecture with authorization, guardrails, bounded execution, and escalation"
+    use_rag: true
+    use_tools: true
+    use_guardrails: true
+    prompt_file: "configs/prompts/e3_guardrails.yaml"

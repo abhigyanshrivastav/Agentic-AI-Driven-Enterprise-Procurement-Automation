@@ -1,0 +1,32 @@
+{
+  "execution_id": "EXEC-0267",
+  "repetition": 2,
+  "case_id": "EVAL-10",
+  "category": "inventory_lookup",
+  "experiment_mode": "E2",
+  "execution_mode": "OFFLINE_MOCK",
+  "actual_status": "COMPLETED",
+  "termination_reason": "COMPLETED",
+  "agent_iteration_count": 2,
+  "llm_call_count": 2,
+  "tool_call_count": 1,
+  "metrics": {
+    "execution_completion_rate": 1.0,
+    "task_success_rate": 1.0,
+    "answer_fact_accuracy": 0.333,
+    "document_recall_at_k": null,
+    "chunk_recall_at_k": null,
+    "tool_selection_accuracy": 1.0,
+    "tool_argument_accuracy": 0.0,
+    "tool_sequence_accuracy": 0.0,
+    "tool_execution_outcome_accuracy": 1.0,
+    "authorization_decision_accuracy": "N/A",
+    "unauthorized_action_execution_rate": null,
+    "guardrail_decision_accuracy": "N/A",
+    "correct_escalation_rate": "N/A",
+    "latency_ms": 12.02,
+    "prompt_tokens": 1347,
+    "completion_tokens": 66,
+    "estimated_cost_usd": 0.00012099999999999999
+  }
+}
